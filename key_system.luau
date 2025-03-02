@@ -9,7 +9,7 @@ local key = 'key'
 local key_link = 'link'
 
 -- library & window
-local orion = loadstring(game:HttpGet"https://raw.githubusercontent.com/m1kp0/libraries/refs/heads/main/m1kpe0_orion_lib.lua")()
+local orion = loadstring(game:HttpGet'https://raw.githubusercontent.com/m1kp0/libraries/refs/heads/main/m1kpe0_orion_lib.lua')()
 local window = orion:MakeWindow({Name = 'key System', HidePremium = false, SaveConfig = true, IntroText = 'welcome', ConfigFolder = 'OrionTest'})
 
 -- functions
