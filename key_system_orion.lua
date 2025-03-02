@@ -9,12 +9,12 @@ local key = 'key'
 local key_link = 'link'
 
 -- library & window
-local library = loadstring(game:HttpGet"https://raw.githubusercontent.com/m1kp0/libraries/refs/heads/main/m1kpe0_orion_lib.lua")()
-local window = library:MakeWindow({Name = 'key System', HidePremium = false, SaveConfig = true, IntroText = 'welcome', ConfigFolder = 'OrionTest'})
+local orion = loadstring(game:HttpGet"https://raw.githubusercontent.com/m1kp0/libraries/refs/heads/main/m1kpe0_orion_lib.lua")()
+local window = orion:MakeWindow({Name = 'key System', HidePremium = false, SaveConfig = true, IntroText = 'welcome', ConfigFolder = 'OrionTest'})
 
 -- functions
 local function notify(title, content, time)
-    library:MakeNotification({
+    orion:MakeNotification({
         Name = title,
         Content = content,
         Image = '',
